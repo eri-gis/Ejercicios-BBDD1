@@ -1,0 +1,41 @@
+group: P2-Ejercicio1
+
+
+DUENIO = {
+	id_duenio:string, nombre:string, telefono:number, direccion:string, dni:number
+	1, "Martin", 123456, "13 y 50", 25359843
+	2, "Erica", 215645, "7 y 60", 45218758
+	3, "carlos", 547923, "132 y 44", 29568145
+	4, "Maria", 148569, "10 y 38", 14978645
+	5, "Juan", 254698, "25 y 32", 34256984
+	
+}
+
+CHOFER = {
+  id_chofer:number, nombre:string, telefono:number, direccion:string, fecha_licencia_desde:date, fecha_licencia_hasta:date, dni:number
+	1, "Jose", 654789, "12 y 40", 2018-09-24, 2023-09-24, 16457256 
+	2, "Martin", 123456, "13 y 60", 2016-07-12, 2021-07-12, 25359843
+	3, "Jorge", 945281, "6 y 54", 2013-01-01, 2018-01-01, 21415632
+	4, "Alberto", 546923, "19 y 33", 2014-04-02, 2019-04-02, 23654789
+	5, "Roberto", 362145, "47 y 134", 2012-12-09, 2018-01-01, 11659247
+	6, "Erica", 215645, "7 y 60", 2015-08-26, 2020-08-26, 45218758
+	7, "Hector", 454225, "2 y 63", 2012-10-15, 2018-01-01, 18222677
+}
+
+AUTO ={ 
+  patente:string, id_duenio:number, id_chofer:number, marca:string, modelo:string, anio:number
+	"AWD123", 4, 5, "Fiat", "Uno", 2012
+	"CTL321", 3, 3, "Ford", "Fiesta", 2010
+	"RSG593", 2, 6, "Peugeot", "308", 2016
+	"LKN542", 5, 4, "Vollswagen", "Fox", 2018
+	"PHA563", 1, 2, "Peugeot", "307", 2015
+	}
+	
+VIAJE = {
+  patente:string, hora_desde:string, hora_hasta:string, origen:string, destino:string, tarifa:number, metraje:number
+  "PHA563", "18:55", "19:10", "10 y 50", "31 y 72", 320, 2654
+	"RSG593", "12:30", "12:40", "24 y 39", "13 y 32", 300, 3520
+	"CTL321", "15:00", "15:25", "44 y 31", "13 y 38", 550, 6524
+	"AWD123", "20:30", "20:47", "27 y 51", "139 y 520", 450, 6541
+	"LKN542", "17:12", "17:20", "137 y 60", "146 y 66", 250, 1250
+}	
